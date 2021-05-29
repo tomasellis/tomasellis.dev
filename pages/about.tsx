@@ -29,7 +29,7 @@ export default function About() {
       </div>
       <main className={styles.main}>
         <div className={styles.go}>
-          <a href="./projects">projects ™</a>
+          <a href="/projects">projects ™</a>
           <a href="/notes">notes 🙏</a>
         </div>
         <div className={styles.about}>
