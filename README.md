@@ -1,3 +1,3 @@
-# bereket.dev
+# tomasellis.dev
 
-inspired by Jordan Singer
+heavily inspired by Bereket

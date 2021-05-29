@@ -1,3 +1,3 @@
 console.log(
-    "\n hey, what are you doing? \n feel free to say hi via twitter (@heybereket) or email (imbereket@gmail.com)\n\n - bereket"
-  );
+  "\n yo, this is uncharted territory! ☢ \n feel free to say hi via twitter (@tomas_ellis0) or email (tomas.sydney.ellis@gmail.com)\n\n - tomás"
+);
