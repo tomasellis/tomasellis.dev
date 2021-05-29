@@ -25,7 +25,6 @@ html {
 }
 body {
   -webkit-font-smoothing: antialiased;
-  background: var(--bg);
   background-color: var(--bg);
 }
 a {
@@ -36,12 +35,15 @@ a:hover {
   color: var(--primary-dark);
 }
 
+.fullpage {
+  display: flex;
+  height: 100vh;
+}
+
 #content {
   max-width: 512px;
   margin: 0 auto;
   padding: 64px 24px;
-  background: var(--bg);
-  background-color: var(--bg);
 }
 .section {
   padding-bottom: 48px;
