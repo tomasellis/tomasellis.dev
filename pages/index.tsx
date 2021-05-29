@@ -9,62 +9,56 @@ export default function Home() {
       <Head>
         <title>Tom's Emporium</title>
         <meta name="description" content="Made with 🧡" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          rel="icon"
+          type="image/png"
+          href="https://i.imgur.com/BHteyOi.png"
+        ></link>
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
         ></link>
       </Head>
-
-      <main className={styles.main}>
+      <div className={styles.header}>
         <h1 className={styles.title}>
-          ./tomásEllis @ <a href="/">home</a>
+          ./tomasellis @ <a href="/">home</a>
         </h1>
-        <h2>web dev based in Argentina</h2>
-        <p className={styles.description}>
-          I enjoy the challenging puzzles programming presents, and most of all,
-          I enjoy having fun!{" "}
-        </p>
-        <div className={styles.sites}>
-          <div className={styles.innerSite}>
-            <span className={styles.innerSiteText}>Look me up</span>
-            <a href="https://github.com/tomasellis" target="_blank">
-              <FontAwesomeIcon icon={["fab", "github"]} size="3x" fixedWidth />
-            </a>
-            <a href="https://twitter.com/tomas_ellis0" target="_blank">
-              <FontAwesomeIcon icon={["fab", "twitter"]} size="3x" fixedWidth />
-            </a>
-          </div>
-          <div className={styles.innerSite}>
-            <span className={styles.innerSiteText}>Contact me!</span>
-            <a
-              href="https://www.linkedin.com/in/tomas-ellis-dev/"
-              target="_blank"
-            >
-              <FontAwesomeIcon
-                icon={["fab", "linkedin"]}
-                size="3x"
-                fixedWidth
-              />
-            </a>
-            <a href="mailto:tomas.sydney.ellis@gmail.com" target="_blank">
-              <FontAwesomeIcon
-                icon={["fas", "envelope"]}
-                size="3x"
-                fixedWidth
-              />
-            </a>
-          </div>
-        </div>
-
+      </div>
+      <div className={styles.main}>
+        <h2 className={styles.description}>dev, physics undergrad</h2>
+        <img src="https://i.imgur.com/BHteyOi.png" alt="boi" width="200px" />
         <div className={styles.grid}>
+          <a href="/about" className={styles.card}>
+            <h2>about &#10150;</h2>
+          </a>
           <a href="/projects" className={styles.card}>
-            <h2>Projects &rarr;</h2>
-            <p>Check out what I've been working on!</p>
+            <h2>projects &#10150;</h2>
+          </a>
+          <a href="/notes" className={styles.card}>
+            <h2>notes &#10150;</h2>
           </a>
         </div>
-      </main>
-
+        <div className={styles.sites}>
+          <a href="https://github.com/tomasellis" target="_blank">
+            <FontAwesomeIcon icon={["fab", "github"]} size="3x" fixedWidth />
+          </a>
+          <a href="https://twitter.com/tomas_ellis0" target="_blank">
+            <FontAwesomeIcon icon={["fab", "twitter"]} size="3x" fixedWidth />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tomas-ellis-dev/"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" fixedWidth />
+          </a>
+          <a href="mailto:tomas.sydney.ellis@gmail.com" target="_blank">
+            <FontAwesomeIcon icon={["fas", "envelope"]} size="3x" fixedWidth />
+          </a>
+        </div>
+      </div>
       <footer className={styles.footer}>
         <span>
           Made with{" "}

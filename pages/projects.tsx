@@ -15,56 +15,43 @@ export default function Projects() {
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
         ></link>
       </Head>
-
-      <main className={styles.main}>
+      <div className={styles.header}>
         <h1 className={styles.title}>
-          .tomásEllis/projects @ <a href="/">home</a>
+          ./tomasellis/projects @ <a href="/">home</a>
         </h1>
-        <h2>web dev based in Argentina</h2>
-        <p className={styles.description}>
-          I enjoy the challenging puzzles programming presents, and most of all,
-          I enjoy having fun!{" "}
-        </p>
-        <div className={styles.sites}>
-          <div className={styles.innerSite}>
-            <span className={styles.innerSiteText}>Look me up</span>
-            <a href="https://github.com/tomasellis" target="_blank">
-              <FontAwesomeIcon icon={["fab", "github"]} size="3x" fixedWidth />
-            </a>
-            <a href="https://twitter.com/tomas_ellis0" target="_blank">
-              <FontAwesomeIcon icon={["fab", "twitter"]} size="3x" fixedWidth />
-            </a>
-          </div>
-          <div className={styles.innerSite}>
-            <span className={styles.innerSiteText}>Contact me!</span>
-            <a
-              href="https://www.linkedin.com/in/tomas-ellis-dev/"
-              target="_blank"
-            >
-              <FontAwesomeIcon
-                icon={["fab", "linkedin"]}
-                size="3x"
-                fixedWidth
-              />
-            </a>
-            <a href="mailto:tomas.sydney.ellis@gmail.com" target="_blank">
-              <FontAwesomeIcon
-                icon={["fas", "envelope"]}
-                size="3x"
-                fixedWidth
-              />
-            </a>
-          </div>
+      </div>
+      <main className={styles.main}>
+        <div className={styles.go}>
+          <a href="./projects">about 🤔</a>
+          <a href="/notes">notes 🙏</a>
         </div>
-
-        <div className={styles.grid}>
-          <a href="/projects" className={styles.card}>
-            <h2>Issphere idk &rarr;</h2>
+        <div className={styles.properList}>
+          <a
+            href="https://github.com/tomasellis/issphere"
+            className={styles.card}
+          >
+            <h2>issphere &rarr;</h2>
+            <p>Here I display the ISS position in a 3D sphere.</p>
+          </a>
+          <a href="https://twitter.com/daily_ubi_bot" className={styles.card}>
+            <h2>UBI Bot &rarr;</h2>
+            <p>
+              A Twitter bot that display every 24hs the price of the $ubi💧
+              token
+            </p>
+          </a>
+          <a href="https://twitter.com/poh_dispute_bot" className={styles.card}>
+            <h2>Proof of Humanity Bot &rarr;</h2>
+            <p>
+              A Twitter bot that tweets every time a PoH profile is challenged.
+            </p>
+          </a>
+          <a href="https://github.com/tomasellis" className={styles.card}>
+            <h2>Coming soon 👺</h2>
             <p>Check out what I've been working on!</p>
           </a>
         </div>
       </main>
-
       <footer className={styles.footer}>
         <span>
           Made with{" "}
