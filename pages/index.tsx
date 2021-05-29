@@ -18,7 +18,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ./tomásEllis @ <a href="https://github.com/tomasellis">home</a>
+          ./tomásEllis @ <a href="/">home</a>
         </h1>
         <h2>web dev based in Argentina</h2>
         <p className={styles.description}>
